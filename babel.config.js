@@ -1,3 +1,8 @@
 module.exports = {
-  presets: ["@vue/cli-plugin-babel/preset"],
+  presets: ['@vue/cli-plugin-babel/preset'],
+
+  plugins: [
+    '@babel/plugin-proposal-optional-chaining', // 配置可选链
+    '@babel/plugin-proposal-nullish-coalescing-operator' // 双问号
+  ]
 };

@@ -1,0 +1,16 @@
+# https://editorconfig.org
+
+# 这个表示本文件在根目录中
+root = true
+
+[*] #表示这个配置文件是针对本项目所有的文件
+charset = utf-8         
+indent_style = space        #表示缩进的风格（tab|space)
+indent_size = 2             #所进的大小是两个空格
+end_of_line = lf            #控制换行的类型（lF \ cr\ crlf)
+insert_final_newline = true     #去除行首的任意空白符号
+trim_trailing_whitespace = true #始终在文件的尾部添加一个空格
+
+[*.md]  #表示仅针对于Md文件有以下约束
+insert_final_newline = false
+trim_trailing_whitespace = false

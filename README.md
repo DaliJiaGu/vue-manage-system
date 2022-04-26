@@ -19,8 +19,7 @@ vue-manage-system是一个后台管理系统的全栈项目，前端主要使用
 - 代码规范：EditorConfig + Prettier + ESLint
 - 提交规范：Commitizen + Commitlint
 
-##### 
-###后端服务对应的地址：https://github.com/DaliJiaGu/cms-backend.git
+### 后端服务对应的地址：https://github.com/DaliJiaGu/cms-backend.git
 
 ### 功能实现
 

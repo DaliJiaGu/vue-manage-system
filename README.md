@@ -31,23 +31,23 @@ vue-manage-system是一个后台管理系统的全栈项目，前端主要使用
 
 1. 登录界面
 
-   ![image-20220424165910818](C:\Users\86159\AppData\Roaming\Typora\typora-user-images\image-20220424165910818.png)
+   ![首页](https://github.com/DaliJiaGu/images/blob/main/manage/index.png)
 
 2. 商品信息数据的展示
 
-   ![商品信息](E:\front\JavaScript\vue3\展示gif\商品信息.gif)
+   ![商品信息](https://github.com/DaliJiaGu/images/blob/main/manage/goods.gif)
 
 3. 新增角色
 
-   ![角色管理](E:\front\JavaScript\vue3\展示gif\角色管理.gif)
+   ![角色管理](https://github.com/DaliJiaGu/images/blob/main/manage/role.gif)
 
 4. 权限菜单管理
 
-   ![菜单管理](E:\front\JavaScript\vue3\展示gif\菜单管理.gif)
+   ![菜单管理](https://github.com/DaliJiaGu/images/blob/main/manage/menu.gif)
 
 5. 部门管理
 
-   ![部门管理](E:\front\JavaScript\vue3\展示gif\部门管理.gif)
+   ![部门管理](https://github.com/DaliJiaGu/images/blob/main/manage/department.gif)
 
 ### 能学到什么？
 
@@ -457,7 +457,7 @@ export function useStore(): Store<StoreType> {
 
 1. 先配置好所有的权限对应的路由：
 
-   ![image-20220416152355818](C:\Users\86159\AppData\Roaming\Typora\typora-user-images\image-20220416152355818.png)
+   ![image-20220416152355818](https://github.com/DaliJiaGu/images/blob/main/manage/1.png)
 
 2. 封装一个工具函数mapMenusToRoutes，通过传入当前登录用户所拥有的权限菜单，来拿到在该权限下的所有路由设置。
 
@@ -503,7 +503,7 @@ export function useStore(): Store<StoreType> {
 
 3. 将路由配置进行注册（通过调用router.addRoute）
 
-   ![image-20220416154033035](C:\Users\86159\AppData\Roaming\Typora\typora-user-images\image-20220416154033035.png)
+   ![image-20220416154033035](https://github.com/DaliJiaGu/images/blob/main/manage/2.png)
 
 
 
@@ -517,13 +517,13 @@ export function useStore(): Store<StoreType> {
 2. 侧边菜单：主要展示用户对应权限下的功能菜单
 3. 主体内容：主要用于展示页面，可根据设计需求再进行分块
 
-![image-20220416164023776](C:\Users\86159\AppData\Roaming\Typora\typora-user-images\image-20220416164023776.png)
+![image-20220416164023776](https://github.com/DaliJiaGu/images/blob/main/manage/3.png)
 
 
 
 对应代码结构是这样的
 
-![image-20220416173036652](C:\Users\86159\AppData\Roaming\Typora\typora-user-images\image-20220416173036652.png)
+![image-20220416173036652](https://github.com/DaliJiaGu/images/blob/main/manage/4.png)
 
 
 
@@ -535,7 +535,7 @@ export function useStore(): Store<StoreType> {
 
 在本项目中，el-mian 展示的内容结构大部分是这样的。
 
-![image-20220416194206425](C:\Users\86159\AppData\Roaming\Typora\typora-user-images\image-20220416194206425.png)
+![image-20220416194206425](https://github.com/DaliJiaGu/images/blob/main/manage/5.png)
 
 
 
@@ -543,25 +543,25 @@ export function useStore(): Store<StoreType> {
 
 对于search-form的封装结构是这样的：
 
-![image-20220416211647889](C:\Users\86159\AppData\Roaming\Typora\typora-user-images\image-20220416211647889.png)
+![image-20220416211647889](https://github.com/DaliJiaGu/images/blob/main/manage/6.png)
 
 
 
 对应的代码结构是这样的：
 
-![image-20220416204540588](C:\Users\86159\AppData\Roaming\Typora\typora-user-images\image-20220416204540588.png)
+![image-20220416204540588](https://github.com/DaliJiaGu/images/blob/main/manage/7.png)
 
 
 
 上图所说的配置信息这里举例一下：
 
-![image-20220416212045499](C:\Users\86159\AppData\Roaming\Typora\typora-user-images\image-20220416212045499.png)
+![image-20220416212045499](https://github.com/DaliJiaGu/images/blob/main/manage/8.png)
 
 
 
 所以我们这里再抽象一下整个el-mian中的组件结构应该是这样的：
 
-![image-20220416213202938](C:\Users\86159\AppData\Roaming\Typora\typora-user-images\image-20220416213202938.png)
+![image-20220416213202938](https://github.com/DaliJiaGu/images/blob/main/manage/9.png)
 
 
 
